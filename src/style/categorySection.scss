@@ -1,0 +1,111 @@
+a {
+  text-decoration: none;
+}
+
+.section1-container {
+  width: 1440px;
+  height: 500px;
+  background: #eff0f3;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url(http://127.0.0.1:3001/static/img/dotGrid.png);
+  background-position: 265px 380px;
+  background-repeat: no-repeat;
+}
+
+.categorySection {
+  width: 1252px;
+  height: 365px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.secHeadBar {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#shb-text1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+#shb-text2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+.img {
+  vertical-align: middle;
+}
+
+.categoryContent {
+  margin-top: 35px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoryItem {
+  width: 180px;/*220px*/
+  height: 280px;
+  padding-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  background: #fffffe;
+  border-radius: 8px;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+.categoryItem:hover {
+  width: 180px; /*220px*/
+  height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  background: #6246ea;
+  border-radius: 8px;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #fffffe;
+  cursor: pointer;
+}

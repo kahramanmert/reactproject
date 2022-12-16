@@ -1,0 +1,38 @@
+.subscribe-container {
+  width: 1440px;
+  height: 453px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eff0f3;
+}
+
+.secSubscribe {
+  width: 696px;
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ss-text1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+#ss-text2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #c0c0c0;
+}

@@ -1,0 +1,104 @@
+.header-container {
+  width: 1440px;
+  height: 900px;
+  margin: 0 auto;
+  background: url(http://127.0.0.1:3001/static/img/hero-background.png);
+}
+
+header {
+  height: 900px;
+}
+
+#scrollHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 882px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 664px;
+  height: 345px;
+}
+
+.hero-container h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 81px;
+  text-transform: capitalize;
+  color: #2b2c34;
+
+  width: 617px;
+}
+
+.hero-container p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #9a9494;
+
+  border-left: 3px solid #2b2c34;
+  padding-left: 12px;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 470px;
+  height: 387px;
+}
+
+input[type="email"] {
+  width: 444px;
+  height: 67px;
+  background: #fffffe;
+  border-radius: 8px;
+  margin-right: 20px;
+  padding-left: 25px;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c0c0c0;
+}
+
+input[type="email"]::placeholder {
+  /* padding-left: 25px; */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c0c0c0;
+}
+
+.button-subscribe {
+  width: 145px;
+  height: 67px;
+  background: #6246ea;
+  border-radius: 8px;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #fffffe;
+}
