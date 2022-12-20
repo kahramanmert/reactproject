@@ -5,6 +5,7 @@ import Header from "./component/header";
 import Footer from "./component/footer";
 import CategorySection from "./component/categorySection";
 import Subscribe from "./component/subscribe";
+import Sections from "./component/sections";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Header />
         <CategorySection />
+        <Sections />
 
         <Subscribe />
         <Footer />

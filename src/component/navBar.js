@@ -2,9 +2,10 @@ import '../style/navBar.scss';
 
 const NavBar = () => {
     const links = [
-        {link: '#', name: 'Home'},
-        {link: '#', name: 'Category'},
-        {link: '#', name: 'About Me'}
+        {link: '/', name: 'Home'},
+        //{link: '#', name: 'Category'},
+        {link: '/register', name: 'Register'},
+        {link: '/aboutme', name: 'About Me'}
     ];
 
     return (
@@ -16,7 +17,7 @@ const NavBar = () => {
                 <div className="nav-container">
                     <ul className="nav-links">
                         {links.map((link) => (
-                            <li><a href={link.link}>{link.name}</a></li>
+                            <li key={link.name}><a href={link.link}>{link.name}</a></li>
                         ))}
 
                         <div className="nav-search">

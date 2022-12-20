@@ -1,0 +1,12 @@
+.users {
+  margin: 10px;
+  width: 40%;
+  .userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    font-size: 14px;
+    height: 30px;
+  }
+}

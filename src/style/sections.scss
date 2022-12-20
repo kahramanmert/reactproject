@@ -1,0 +1,138 @@
+.section2-container {
+  width: 1440px;
+  height: 2500px;
+  margin: 0 auto;
+  background: #fffffe;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aSection {
+  width: 1252px;
+  height: 490px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.secCardPost {
+  width: 1248px;
+  height: 425px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardPostItem {
+  width: 300px;
+  height: 425px;
+
+  box-shadow: 4px 6px 13px rgba(215, 215, 215, 0.25);
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardPostContent {
+  width: 260px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.articleNameText {
+  height: 50px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+.writer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.writerNameText {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2b2c34;
+}
+
+.articleInfoText {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+.secHeadBar {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#shb-text1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+#shb-text2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #2b2c34;
+}
+
+.button-more {
+  width: inherit;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.more-article-button {
+  width: 165px;
+  height: inherit;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #fffffe;
+
+  background: #6246ea;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
